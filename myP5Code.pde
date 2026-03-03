@@ -20,8 +20,11 @@ draw = function(){
      triangle(200, 104, 280, 280, 120, 280);
  fill(225, 225, 225);
 
+//star
   }
   
+  text("🌟", mouseX, mouseY)
+;
   //Nonchalant Answers
   if (answer == 1) {
     text("Proly", 176, 200);
@@ -81,9 +84,7 @@ draw = function(){
 
  if (answer == 10) {
     text("uhhhh umm", 176, 200);
-    text("hold on hit it one more time...", 159, 229); 
-
-    }
+    text("hold on hit it one more time...", 159, 229);} 
 };
 
 mouseClicked = function(){
